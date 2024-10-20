@@ -1,0 +1,41 @@
+.repository-card {
+    background-color: #0000006b;
+    color: #ffffff;
+    margin: 0 0 16px;
+    border: 1px solid #6f6f6f;
+}
+
+.repository-card__main-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.repository-card__avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 1px solid #6f6f6f;
+}
+
+.repository-card__sub-info {
+    display: flex;
+    justify-content: center;
+}
+
+.repository-card__stars svg {
+    margin-right: 4px;
+}
+
+.repository-card__stars .anticon {
+    color: #f2ff5c;
+}
+
+.repository-card__divider {
+    margin: 0 8px;
+}
+
+.repository-card__description {
+    margin: 6px 0;
+}
